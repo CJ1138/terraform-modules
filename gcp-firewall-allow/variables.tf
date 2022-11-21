@@ -13,3 +13,7 @@ variable "ports" {
 variable "tags" {
   type = list(string)
 }
+
+variable "ranges" {
+  type = list(string)
+}

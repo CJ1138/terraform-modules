@@ -8,4 +8,6 @@ resource "google_compute_firewall" "default" {
   }
 
   source_tags = var.tags
+
+  source_ranges = var.ranges
 }
