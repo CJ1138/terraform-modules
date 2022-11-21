@@ -4,8 +4,8 @@ variable "firewall_rule" {
 variable "network" {
   type = string
 }
-variable "protocols" {
-  type = list(string)
+variable "protocol" {
+  type = string
 }
 variable "ports" {
   type = list(string)

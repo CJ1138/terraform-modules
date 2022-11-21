@@ -3,7 +3,7 @@ resource "google_compute_firewall" "default" {
   network = var.network
 
   allow {
-    protocol = var.protocols
+    protocol = var.protocol
     ports    = var.ports
   }
 
