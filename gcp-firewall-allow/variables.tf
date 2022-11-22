@@ -5,7 +5,7 @@ variable "network" {
   type = string
 }
 variable "protocol" {
-  type = string
+  type = list(string)
 }
 variable "ports" {
   type = list(string)
